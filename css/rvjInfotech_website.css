@@ -1,0 +1,349 @@
+:root {
+  --header-font-size: 18px;
+  --blue-navy-color: #2e3d62;
+  --font-family: sans-serif;
+  --light-blue: #6c5ce7;
+  --font-size: 1rem;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* media quary */
+@media (max-width: 980px) {
+  .aboutComp {
+    width: 100% !important;
+  }
+  .contact {
+    /* flex-direction: column; */
+    width: 100%;
+    padding: 20px;
+  }
+  .box-1,
+  .box-3 {
+    width: 50%;
+  }
+  .box-2,
+  .box-4 {
+    display: none;
+  }
+  .whatWeDO {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+@media (max-width: 770px) {
+  .section-padding {
+    flex-direction: column;
+  }
+  .welcom_com {
+    width: 100%;
+  }
+  .compny-img {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+.main-contant {
+  z-index: 4;
+}
+.navbar {
+  height: 6.25rem;
+}
+.nav-option {
+  padding-bottom: 2.25rem;
+  color: var(--blue-navy-color);
+}
+.main-contant {
+  margin-top: 6rem;
+  padding-top: 1rem;
+}
+.headerBg {
+  background: white;
+  box-shadow: 0px 0px 20px 8px rgb(14 16 48 / 7%);
+}
+.section-heading .meta {
+  letter-spacing: 4px;
+  color: var(--blue-navy-color);
+  background-color: rgba(46, 61, 98, 0.1);
+  padding: 4px 10px;
+  margin-top: 1rem;
+  margin-bottom: 25px;
+  width: 25%;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+.section-heading .section__title {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-bottom: 36px;
+  padding: 1rem;
+  width: 60%;
+  font-family: sans-serif;
+  color: var(--blue-navy-color);
+}
+.section-description .description {
+  font-size: 24px;
+  line-height: 37px;
+  margin-bottom: 35px;
+  color: #7f8897;
+  font-family: var(--font-family);
+}
+.section-padding {
+  padding-top: 150px;
+  padding-bottom: 120px;
+  color: var(--blue-navy-color);
+  font-family: var(--font-family);
+}
+.section-padding p {
+  line-height: 28px;
+  font-size: 18px;
+}
+h2 {
+  font-size: 45px;
+}
+.bi-award,
+.bi-people {
+  color: var(--light-blue);
+}
+.aboutComp {
+  letter-spacing: 2px;
+  color: var(--light-blue);
+  background-color: rgba(46, 61, 98, 0.1);
+  padding: 4px 10px;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  width: 40%;
+  font-size: var(--font-size);
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+.img__item {
+  padding: 0.5rem;
+}
+.img__item:nth-child(1) {
+  width: 39%;
+  margin-top: 2rem;
+}
+.img__item:nth-child(2) {
+  width: 59%;
+}
+.img__item:nth-child(3) {
+  width: 59%;
+}
+.img__item:nth-child(4) {
+  width: 39%;
+  margin-bottom: 2rem;
+}
+.feature-area-section {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  font-family: var(--font-family);
+}
+.blue-box {
+  background-color: var(--blue-navy-color);
+  position: relative;
+  height: 350px;
+}
+.card-group {
+  margin-top: -250px;
+}
+.SkilledBox {
+  padding-bottom: 90px;
+}
+.card {
+  border-radius: 8px !important;
+  border: none;
+  box-shadow: 0px 7px 20px 8px rgb(14 16 48 / 5%);
+}
+.card:hover {
+  box-shadow: 0 8px 16px #00000033;
+}
+.jobcard {
+  box-shadow: none;
+}
+.jobcard:hover {
+  box-shadow: 0 0 40px rgb(82 85 90 / 10%) !important;
+  border-bottom: 4px solid #17a2b8;
+  border-radius: 0px !important;
+}
+.card-body {
+  color: var(--blue-navy-color);
+}
+.feature__icon {
+  border-radius: 100px;
+  width: 25%;
+  min-height: 25%;
+}
+.setting {
+  background-color: #6c5ce7;
+}
+.card .feature__title {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.feature__text {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.feature__btn {
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+.contact_btn {
+  background-color: var(--light-blue);
+  padding: 10px 15px;
+}
+.rm1 {
+  color: #6c5ce7;
+}
+.rm2 {
+  color: #4be6b8;
+}
+.rm3 {
+  color: #f78c01;
+}
+.tv {
+  background-color: #4be6b8;
+}
+.mic {
+  background-color: #f78c01;
+}
+.whatWeDO {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.AutCom {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: var(--light-blue);
+  background-color: rgba(46, 61, 98, 0.1);
+  padding: 4px 8px;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  width: 32%;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+.softIcon {
+  margin-left: -10rem;
+  position: relative;
+}
+.Git {
+  letter-spacing: 2px;
+  color: var(--light-blue);
+  background-color: rgba(46, 61, 98, 0.1);
+  padding: 4px 8px;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  width: 32%;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+.compyCont {
+  color: var(--blue-navy-color);
+  font-size: 18px;
+}
+.services {
+  margin: 10px;
+  color: var(--blue-navy-color);
+}
+.services li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.services li:hover {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.footer {
+  border-top: 1px solid rgb(217, 215, 215);
+  margin-bottom: -650px;
+  position: relative;
+}
+/* canvas css */
+@keyframes move_wave {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+.waveWrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.waveWrapperInner {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  bottom: -1px;
+  background-image: linear-gradient(to top, #b7f6f9 20%, #e7f5fb 80%);
+}
+.bgTop {
+  z-index: 3;
+  opacity: 0.5;
+}
+.bgMiddle {
+  z-index: 2;
+  opacity: 0.75;
+}
+.bgBottom {
+  z-index: 1;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+.waveTop {
+  background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+  -webkit-animation: move-wave 3s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.waveMiddle {
+  background-size: 50% 220px;
+}
+.waveAnimation .waveMiddle {
+  animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+  background-size: 50% 250px;
+}
+.waveAnimation .waveBottom {
+  animation: move_wave 15s linear infinite;
+}
+/* canvas css end */
